@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bondi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-lg-3 active" aria-current="page" href="#landing">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#features">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#our-work">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-lg-3" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a class="btn btn-danger rounded-pill" href="#">Login</a>
+      </div>
+    </div>
+  </nav>
+  <div id="landing" class="landing d-flex align-items-center justify-content-center">
+    <div class="text-center text-light">
+      <h1>Unleash Your Digital Potential</h1>
+      <p class="fs-4 text-white-50">We design innovative digital experiences to enhance your brand and strengthen your online presence.</p>
+      <a class="btn btn-danger rounded-pill mt-3" href="#">Get Started</a>
+    </div>
+  </div>
+  <div id="features" class="features text-center pt-5 pb-5">
+    <div class="container">
+      <div class="main-title mt-3 mb-3 position-relative">
+        <img src="imgs/page-design.png" alt="">
+        <h3 class="mt-2">Empowering Your Brand</h3>
+        <p class="text-black-50 text-uppercase">Elevating brands with digital innovation</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="icon-holder position-relative">
+            <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+            <img class="position-absolute bottom-0" src="imgs/feat-1.png" alt="">
+          </div>
+          <h3 class="mb-3 mt-3">Graphic Design</h3>
+          <p class="text-black-50 ln-base">
+            Delivering bold and inspiring designs that reflect your brand’s unique identity
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="icon-holder position-relative">
+            <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+            <img class="position-absolute bottom-0" src="imgs/feat-2.png" alt="">
+          </div>
+          <h3 class="mb-3 mt-3">Dynamic Website</h3>
+          <p class="text-black-50 ln-base">
+            Building interactive, user-centric websites that enhance your digital presence
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="icon-holder position-relative">
+            <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+            <img class="position-absolute bottom-0" src="imgs/feat-3.png" alt="">
+          </div>
+          <h3 class="mb-3 mt-3">Digital Marketing</h3>
+          <p class="text-black-50 ln-base">
+            Boost your visibility and connect with your audience through innovative digital marketing strategies
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="our-work" class="our-work text-center pt-5 pb-5">
+    <div class="container">
+      <div class="main-title mt-3 mb-3 position-relative">
+        <img src="imgs/our-work.png" alt="">
+        <h3 class="mt-2">Creative Frontier</h3>
+        <p class="text-black-50 text-uppercase">Innovative digital solutions for brand growth</p>
+      </div>
+      <ul class="list-of-work d-flex justify-content-center gap-3 mt-5">
+        <li class="btn btn-danger rounded-pill fw-bold">All</li>
+        <li class="btn fw-bold rounded-pill">Design</li>
+        <li class="btn fw-bold rounded-pill">Data</li>
+        <li class="btn fw-bold rounded-pill">Photo</li>
+        <li class="btn fw-bold rounded-pill">App</li>
+      </ul>
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Graphic Design">
+            <img src="imgs/work-1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Web Development">
+            <img src="imgs/work-2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Digital Marketing">
+            <img src="imgs/work-3.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Smart App Development">
+            <img src="imgs/work-4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Professional Photography">
+            <img src="imgs/work-5.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Search Engine Optimization">
+            <img src="imgs/work-6.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Data Analysis">
+            <img src="imgs/work-7.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box mb-3 bg-white" data-work="Digital Advertising">
+            <img src="imgs/work-8.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-danger text-uppercase rounded-pill mt-4">i want more</button>
+    </div>
+  </div>
+  <div id="about" class="stuff pt-5">
+    <div class="container">
+      <div class="main-title text-center mt-3 mb-3 position-relative">
+        <img src="imgs/stuff.png" alt="">
+        <h3 class="mt-2">Some Stuff About Us</h3>
+        <p class="text-black-50 text-uppercase">The Great Team</p>
+      </div>
+      <p class="information text-center text-black-50 mt-5 mb-4 m-auto">
+        In a world where digital presence is vital, 
+        we are dedicated to helping brands unlock their full potential. 
+        Our team of innovative designers, developers, 
+        and digital marketers collaborates to create exceptional online experiences that not only captivate but also convert.
+      </p>
+      <div class="row align-items-center mt-5">
+        <div class="col-md-4 mb-4 text-center text-md-start">
+          <div class="text">
+            <h4>Cutting-Edge Design</h4>
+            <p class="text-black-50 fs-6">
+              We provide exceptional user interface and experience designs tailored to your needs, 
+              ensuring that every element reflects your brand and enhances user engagement.
+            </p>
+            <p class="text-black-50 fs-6">
+              We are here to support you with integrated solutions that include design, 
+              development, and digital marketing. 
+              Let us help you explore your digital potential and achieve your goals in the best possible way.
+            </p>
+            <a class="btn btn-danger rounded-pill text-uppercase" href="#">Order Me One</a>
+          </div>
+        </div>
+        <div class="col-md-8 d-none d-md-block">
+          <div class="image">
+            <img src="imgs/laptop.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="our-team text-center pt-5 pb-5">
+    <div class="container">
+      <div class="title mt-3 mb-3">
+        <h2>Our Creative Team</h2>
+        <p class="text-black-50">
+          We are a group of creative professionals dedicated to ensuring your digital success.
+        </p>
+      </div>
+      <div class="row mt-5 mb-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="box">
+            <div class="image">
+              <img src="imgs/team-1.jpg" alt="" class="img-fluid">
+            </div>
+            <h4 class="px-5 py-3 m-0">Mohamed Ali</h4>
+            <p class="text-black-50 p-3 bg-white">
+              "Designs innovative user interfaces to ensure a engaging experience."
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box">
+            <div class="image">
+              <img src="imgs/team-2.jpg" alt="" class="img-fluid">
+            </div>
+            <h4 class="px-5 py-3 m-0">Sara Khaled</h4>
+            <p class="text-black-50 p-3 bg-white">
+              "Creates comprehensive marketing plans to boost digital engagement."
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box">
+            <div class="image">
+              <img src="imgs/team-3.jpg" alt="" class="img-fluid">
+            </div>
+            <h4 class="px-5 py-3 m-0">Ahmed Hassan</h4>
+            <p class="text-black-50 p-3 bg-white">
+              "Builds fast, fully integrated websites using modern & secure technologies."
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box">
+            <div class="image">
+              <img src="imgs/team-4.jpg" alt="" class="img-fluid">
+            </div>
+            <h4 class="px-5 py-3 m-0">Nour Adel</h4>
+            <p class="text-black-50 p-3 bg-white">
+              "Creates a visual identity that clearly reflects the brand's personality."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="techs pt-5 pb-5 text-center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-1.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-2.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-3.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-4.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-5.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 mt-3 mb-3">
+          <img src="imgs/tech-6.png" width="70" height="70" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="project pt-5 pb-5 text-center">
+    <div class="container">
+      <h3>Bring Your Brand to Life</h3>
+      <p class="text-white-50">
+        Share your ideas, and we'll craft a digital experience that stands out. No strings attached—cancel anytime!
+      </p>
+      <button class="btn btn-danger text-uppercase rounded-pill mt-4 fs-5">Get Started</button>
+    </div>
+  </div>
+  <div class="blog pt-5 pb-5">
+    <div class="container">
+      <div class="main-title text-center mt-3 mb-3 position-relative">
+        <img src="imgs/blog.png" alt="">
+        <h3 class="mt-2">Explore Our Digital Insights</h3>
+        <p class="text-black-50 text-uppercase">New stories</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 bg-white mt-3">
+          <div class="image rounded-top overflow-hidden">
+            <img src="imgs/blog-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="info p-2 border rounded-bottom">
+            <p class="m-0 text-black-50">April 5, 2024</p>
+            <p class="m-0 fw-bold fs-5">Secrets to Improving User Experience to Boost Your Brand</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 bg-white mt-3">
+          <div class="image rounded-top overflow-hidden">
+            <img src="imgs/blog-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="info p-2 border rounded-bottom">
+            <p class="m-0 text-black-50">March 22, 2024</p>
+            <p class="m-0 fw-bold fs-5">How Digital Marketing Strategies Succeed in a Changing Environment?</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 bg-white mt-3">
+          <div class="image rounded-top overflow-hidden">
+            <img src="imgs/blog-3.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="info p-2 border rounded-bottom">
+            <p class="m-0 text-black-50">February 10, 2024</p>
+            <p class="m-0 fw-bold fs-5">Top Tools to Enhance Your Online Presence in 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="button-blog text-center mt-5">
+        <button class="btn btn-danger text-uppercase rounded-pill fs-5">More Stories</button>
+      </div>
+    </div>
+  </div>
+  <div class="subscribe pt-5 pb-5 text-center text-md-start">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5 col-lg-3">
+          <div class="fw-bold fs-5 mb-3">
+            Subscribe for the latest news:
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-7 mb-3">
+          <input type="text" placeholder="Enter Your Email Address" class="w-100 p-2">
+        </div>
+        <div class="col-md-2">
+          <input type="submit" value="Subscribe" class="btn btn-danger text-uppercase rounded-pill fs-6">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer pt-5 pb-4 text-white-50 text-center text-md-start">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info mb-5">
+            <img src="imgs/logo.png" alt="" class="mb-4">
+            <p>
+              Contact us to enhance your brand's online presence with innovative designs and effective marketing solutions.
+            </p>
+            <ul class="d-flex mt-5 gap-3">
+              <li>
+                <a class="d-block text-light" href="https://www.facebook.com/profile.php?id=61552975798511&mibextid=ZbWKwL">
+                  <i class="fa-brands fa-facebook facebook rounded-circle p-2"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://x.com/ZeyadWa1ed?t=laQ_k-UiVq_51NkTdTT4wQ&s=09">
+                  <i class="fa-brands fa-twitter twitter rounded-circle p-2"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://www.linkedin.com/in/zeyad-waled-3504a9295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <i class="fa-brands fa-linkedin linkedin rounded-circle p-2"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://github.com/zeyadwaled25" target="_blank">
+                  <i class="fa-brands fa-github github rounded-circle p-2"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-light" href="https://youtube.com/playlist?list=PLDoPjvoNmBAyvm7f--dc6XqkpfDcen_vQ&si=qBZsuj0NeDR9h9oW">
+                  <i class="fa-brands fa-youtube youtube rounded-circle p-2"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="links">
+            <h5 class="text-light">Links</h5>
+            <ul class="lh-lg">
+              <li>Home</li>
+              <li>Our Services</li>
+              <li>Portfolio</li>
+              <li>Testimonials</li>
+              <li>Support</li>
+              <li>terms and Condition</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="links">
+            <h5 class="text-light">About Us</h5>
+            <ul class="lh-lg">
+              <li>Sign In</li>
+              <li>Register</li>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h5 class="text-light mb-3">Contact Us</h5>
+          <p class="mb-5">
+            Get in touch with us via mail phone.We are waiting for your call or message
+          </p>
+          <a href="mailto:zeyadwaled165@gmail.com" class="btn btn-danger text-uppercase rounded-pill fs-6 w-100">Contact Us</a>
+          <div class="copyright mt-3">
+            Created By <span>Zeyad Waled</span>
+            <div>&copy;2024 - <span>Bondi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
